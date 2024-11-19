@@ -1,0 +1,109 @@
+{
+    "1": {
+        "ques": "How satisfied are you with our service?",
+        "options": ["Very Satisfied", "Satisfied", "Neutral", "Dissatisfied", "Very Dissatisfied"],
+        "reply": {
+            "very satisfied": "2",
+            "satisfied": "3",
+            "neutral": "4",
+            "dissatisfied": "5",
+            "very dissatisfied": "6"
+        }
+    },
+    "2": {
+        "ques": "What did you like most about our service?",
+        "options": ["Quality", "Speed", "Customer Service", "Price", "Other"],
+        "reply": {
+            "quality": "7",
+            "speed": "8",
+            "customer service": "9",
+            "price": "10",
+            "other": "11"
+        }
+    },
+    "3": {
+        "ques": "What can we improve?",
+        "options": ["Quality", "Speed", "Customer Service", "Price", "Other"],
+        "reply": {
+            "quality": "12",
+            "speed": "13",
+            "customer service": "14",
+            "price": "15",
+            "other": "16"
+        }
+    },
+    "4": {
+        "ques": "Would you recommend us to a friend?",
+        "options": ["Yes", "No"],
+        "reply": {
+            "yes": "17",
+            "no": "18"
+        }
+    },
+    "5": {
+        "ques": "Please provide any additional comments about your experience.",
+        "options": []
+    },
+    "6": {
+        "ques": "Please provide any additional comments about your experience.",
+        "options": []
+    },
+    "7": {
+        "ques": "You liked Quality. Can you specify what aspects of Quality?",
+        "options": [],
+        "reply": {}
+    },
+    "8": {
+        "ques": "You liked Speed. Can you specify what aspects of Speed?",
+        "options": [],
+        "reply": {}
+    },
+    "9": {
+        "ques": "You liked Customer Service. Can you specify what aspects of Customer Service?",
+        "options": [],
+        "reply": {}
+    },
+    "10": {
+        "ques": "You liked Price. Can you specify what aspects of Price?",
+        "options": [],
+        "reply": {}
+    },
+    "11": {
+        "ques": "You liked Other aspects. Can you specify what Other aspects?",
+        "options": [],
+        "reply": {}
+    },
+    "12": {
+        "ques": "You want to improve Quality. Can you specify what aspects of Quality need improvement?",
+        "options": [],
+        "reply": {}
+    },
+    "13": {
+        "ques": "You want to improve Speed. Can you specify what aspects of Speed need improvement?",
+        "options": [],
+        "reply": {}
+    },
+    "14": {
+        "ques": "You want to improve Customer Service. Can you specify what aspects of Customer Service need improvement?",
+        "options": [],
+        "reply": {}
+    },
+    "15": {
+        "ques": "You want to improve Price. Can you specify what aspects of Price need improvement?",
+        "options": [],
+        "reply": {}
+    },
+    "16": {
+        "ques": "You want to improve Other aspects. Can you specify what Other aspects need improvement?",
+        "options": [],
+        "reply": {}
+    },
+    "17": {
+        "ques": "Thank you for recommending us! Do you have any further comments?",
+        "options": []
+    },
+    "18": {
+        "ques": "Sorry to hear that you wouldn't recommend us. Do you have any further comments?",
+        "options": []
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMIIC SURVEY</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Survey</h1>
+        <form method="post">
+            <div class="form-group">
+                <p class="question">{{ question }}</p>
+                {% if options %}
+                    <div class="options">
+                        {% for option in options %}
+                            <input type="radio" name="reply" value="{{ option }}" id="{{ option }}">
+                            <label for="{{ option }}">{{ option }}</label><br>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                <input type="hidden" name="curr_id" value="{{ curr_id }}">
+            </div>
+            {% if not options %}
+                <div class="form-group comments">
+                    <label for="sugg"> comments or suggestions:</label>
+                    <textarea name="sugg" id="sugg" placeholder=" any additional comments about your experience..."></textarea>
+                </div>
+            {% endif %}
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>
